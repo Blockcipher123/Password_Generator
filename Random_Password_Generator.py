@@ -23,4 +23,27 @@ for i in range(password_length - 4):
 
 for p in z:
 	password= password+p
-print(password)
+print(f'print user password : {password}')
+
+print('press 1 to generate another password :)')
+print('or')
+print('press 2 to not generate another password :)')
+
+new_password = ""
+for i in range(password_length - 4):
+	ya = y + random.choice(x)
+
+	u = array.array('u',ya)
+	random.shuffle(u)
+
+for r in u:
+	new_password= new_password+r
+
+new_pass = int(input())
+if (new_pass==1):
+	print(f'Your New Password is : {new_password}')
+else:
+	print('Thanks')
+
+
+
