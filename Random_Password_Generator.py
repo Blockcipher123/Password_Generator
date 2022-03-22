@@ -23,8 +23,8 @@ for i in range(password_length - 4):
 
 for p in z:
 	password= password+p
-print(f'print user password : {password}')
-
+print(f'print Your password : {password}')
+'''
 print('press 1 to generate another password :)')
 print('or')
 print('press 2 to not generate another password :)')
@@ -45,5 +45,5 @@ if (new_pass==1):
 else:
 	print('Thanks')
 
-
+'''
 
